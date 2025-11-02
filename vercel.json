@@ -12,9 +12,5 @@
       "dest": "index.js",
       "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
     }
-  ],
-  "env": {
-    "MONGO_URI": "@mongo-uri",
-    "OTHER_SECRET": "@other-secret"
-  }
+  ]
 }
