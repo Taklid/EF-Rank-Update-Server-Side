@@ -1,0 +1,40 @@
+{
+  "name": "taklid-food-server",
+  "version": "1.0.0",
+  "description": "Backend API for Taklid Food Shop — built with Express, MongoDB, and Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "api",
+    "food-delivery",
+    "backend",
+    "taklid"
+  ],
+  "author": "MD Taklid",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "stripe": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.3.3"
+  }
+}
